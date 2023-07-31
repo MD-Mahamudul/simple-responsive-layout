@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .food{
+            border: 2px solid tomato;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgb(159, 237, 240);
+        }
+        .food img{
+            width: 100%;
+        }
+        @media screen and (max-width:576px){
+           .container{
+            grid-template-columns:repeat(1, 1fr) ; 
+           }       
+        }
+        @media screen and (min-width: 577px) and (max-width:992px){
+           .container{
+            grid-template-columns: repeat(2, 1fr);
+           }
+        }
+
+        
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h3>food Item - 1</h3>
+            <p>price  01 00</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse sapiente corrupti nesciunt accusamus iusto? Inventore, consequuntur error nulla placeat nesciunt laudantium. Quos unde natus explicabo aspernatur, dolores nisi! Iure, nesciunt?</p>
+            <button>Bye Now</button>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h3>food Item - 2</h3>
+            <p>price  02 00</p>
+            <p>Laborum quia sint maiores voluptates rerum minus similique nihil, ea eligendi sed cupiditate aspernatur modi facere temporibus quidem inventore odio recusandae hic corrupti expedita sapiente officiis debitis. Ab, eveniet eius.</p>
+            <button>Bye Now</button>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h3>food Item - 3</h3>
+            <p>price  03 00</p>
+            <p>Tenetur fugiat, ea magnam sint mollitia itaque dolorum necessitatibus accusamus voluptatem dolore animi consequatur distinctio sit quod dicta nobis nemo omnis possimus quis sed eum suscipit quia quae id. Totam.</p>
+            <button>Bye Now</button>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h3>food Item - 4</h3>
+            <p>price  04 00</p>
+            <p>Reiciendis sint nulla unde eligendi aliquid? Recusandae assumenda cumque amet perferendis voluptatem. Ipsam repellat minima reiciendis saepe aliquid rerum deserunt cum laudantium! Itaque eveniet eaque ea dignissimos! Quas, perspiciatis libero?</p>
+            <button>Bye Now</button>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h3>food Item - 5</h3>
+            <p>price  05 00</p>
+            <p>Perspiciatis consequuntur, deleniti numquam tenetur voluptates maxime? Perspiciatis nobis cum atque? Animi minus, soluta architecto facere illo consectetur unde quo, nulla minima obcaecati amet incidunt ut veritatis. Debitis, rerum minus!</p>
+            <button>Bye Now</button>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h3>food Item - 6</h3>
+            <p>price  06 00</p>
+            <p>Beatae, nihil. Repudiandae culpa dignissimos excepturi eligendi incidunt ut pariatur nam natus aperiam! Officiis placeat molestiae accusamus nesciunt earum, tempore ratione nihil voluptates, a hic tempora unde rerum impedit autem?</p>
+            <button>Bye Now</button>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h3>food Item - 7</h3>
+            <p>price  07 00</p>
+            <p>Nemo impedit dignissimos nam fugiat deserunt commodi doloribus in voluptatibus? Illum molestias culpa maiores magnam! Et odio eius qui veritatis facere! Tempora, explicabo itaque! Quis saepe natus obcaecati voluptate quae!</p>
+            <button>Bye Now</button>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h3>food Item - 8</h3>
+            <p>price  08 00</p>
+            <p>Quia, ipsa. Dolorem natus non voluptas itaque, quas iure minima amet? Voluptas consequatur reprehenderit molestiae vel enim! Nemo rerum aliquam iusto, vel enim asperiores! Quasi eveniet molestias sunt illum ratione.</p>
+            <button>Bye Now</button>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h3>food Item - 9</h3>
+            <p>price  09 00</p>
+            <p>Illo impedit molestias dicta a, eligendi quidem quae at et ad dolores. Necessitatibus blanditiis sapiente impedit adipisci odio sequi minus, aliquid totam veritatis praesentium cumque unde cum, laboriosam perspiciatis delectus?</p>
+            <button>Bye Now</button>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h3>food Item - 10</h3>
+            <p>price  10 00</p>
+            <p>Quibusdam nesciunt vel at cupiditate delectus, minima consectetur reiciendis sunt rerum nobis nihil tempore repellat, natus eos voluptates illo iusto itaque. Et consectetur voluptas ipsa minima a quo dolores eligendi?</p>
+            <button>Bye Now</button>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h3>food Item - 11</h3>
+            <p>price  11 00</p>
+            <p>Harum adipisci quisquam sunt sint officiis eum id quibusdam sed iusto sit! Expedita neque atque natus, ex aspernatur nobis error sed placeat labore tempora necessitatibus harum, obcaecati quam rem? Distinctio.</p>
+            <button>Bye Now</button>
+        </div>
+        <div class="food">
+            <img src="img/food.jpg" alt="">
+            <h3>food Item - 12</h3>
+            <p>price  12 00</p>
+            <p>Expedita numquam deserunt mollitia eaque. Voluptate cupiditate temporibus blanditiis delectus! Quae, dolorum repellat impedit harum corrupti itaque modi mollitia cumque eligendi facilis, inventore necessitatibus ad nulla quibusdam deserunt aliquam maxime!</p>
+            <button>Bye Now</button>
+        </div>
+    </div>
+</body>
+</html>
